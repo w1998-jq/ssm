@@ -9,7 +9,7 @@
     </select>
     <resultMap id="StudentTeacher" type="com.wang.pojo.Student">
         <!--association关联属性  property属性名 javaType属性类型 column在多的一方的表中的列名-->
-        <association property="teachers"  column="tid" javaType="com.wang.pojo.Teacher" select="getTeacher"/>
+        <association property="teacher"  column="tid" javaType="com.wang.pojo.Teacher" select="getTeacher"/>
     </resultMap>
     <!--
     这里传递过来的id，只有一个属性的时候，下面可以写任何值

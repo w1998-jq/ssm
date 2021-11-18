@@ -185,3 +185,42 @@
 [DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====> Parameters: 3(Integer)
 [DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]<====      Total: 1
 [DEBUG][21-11-18][com.wang.dao.StudentMapper.getStudents]<==      Total: 6
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][21-11-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][21-11-18][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1796371666.
+[DEBUG][21-11-18][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6b1274d2]
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getStudents]==>  Preparing: select * from student
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getStudents]==> Parameters: 
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====>  Preparing: select * from teacher where id = ?
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====> Parameters: 1(Integer)
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]<====      Total: 1
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====>  Preparing: select * from teacher where id = ?
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====> Parameters: 2(Integer)
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]<====      Total: 1
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====>  Preparing: select * from teacher where id = ?
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]====> Parameters: 3(Integer)
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getTeacher]<====      Total: 1
+[DEBUG][21-11-18][com.wang.dao.StudentMapper.getStudents]<==      Total: 6

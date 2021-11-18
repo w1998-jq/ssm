@@ -18,9 +18,9 @@
         where s.tid = t.id and t.id=#{id}
     </select>
 
-    <resultMap id="TeacherStudent" type="Teacher">
+    <resultMap id="TeacherStudent" type="com.wang.pojo.oneToMutil.Teacher">
         <result  property="name" column="tname"/>
-        <collection property="students" ofType="Student">
+        <collection property="students" ofType="com.wang.pojo.oneToMutil.Student">
             <result property="id" column="sid" />
             <result property="name" column="sname" />
             <result property="tid" column="tid" />
@@ -30,11 +30,11 @@
     <select id="getTeacher2" resultMap="TeacherStudent2">
         select * from teacher where id = #{id}
     </select>
-    <resultMap id="TeacherStudent2" type="Teacher">
+    <resultMap id="TeacherStudent2" type="com.wang.pojo.oneToMutil.Teacher">
         <!--column是一对多的外键 , 写的是一的主键的列名-->
-        <collection property="students" javaType="ArrayList" ofType="Student" column="id" select="getStudentByTeacherId"/>
+        <collection property="students" javaType="ArrayList" ofType="com.wang.pojo.Student" column="id" select="getStudentByTeacherId"/>
     </resultMap>
-    <select id="getStudentByTeacherId" resultType="Student">
+    <select id="getStudentByTeacherId" resultType="com.wang.pojo.oneToMutil.Student">
         select * from student where tid = #{id}
     </select>
 

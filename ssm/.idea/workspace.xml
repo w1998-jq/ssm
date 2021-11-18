@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="mybatis 一对多关系" />
+    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="mybatis 一对多关系">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/wang.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/wang.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dao/teacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dao/teacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/TeacherMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/studentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/teacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/teacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/pojo/Student.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,22 +65,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.testGetStudents">
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wang.MyTest" />
-      <module name="ssm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest.test (1)">
     <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ssm" />
       <extension name="coverage">
@@ -97,6 +94,22 @@
       <option name="PACKAGE_NAME" value="com.wang" />
       <option name="MAIN_CLASS_NAME" value="com.wang.MyTest" />
       <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wang" />
+      <option name="MAIN_CLASS_NAME" value="com.wang.MyTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.testGetStudents" />
         <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="JUnit.MyTest.addUser" />
         <item itemvalue="JUnit.MyTest" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +169,8 @@
       <workItem from="1637204708304" duration="6315000" />
       <workItem from="1637228578409" duration="3672000" />
       <workItem from="1637236464932" duration="4534000" />
+      <workItem from="1637242779233" duration="810000" />
+      <workItem from="1637243822779" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 一对多关系">
       <created>1637236365960</created>
@@ -183,6 +198,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="mybatis 一对多关系" />
     <option name="LAST_COMMIT_MESSAGE" value="mybatis 一对多关系" />
   </component>

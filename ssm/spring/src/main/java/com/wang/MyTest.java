@@ -1,8 +1,13 @@
 package com.wang;
 
+import com.wang.pojo.Hello;
+import com.wang.pojo.Student;
+import com.wang.pojo.User;
 import com.wang.service.UserService;
 import com.wang.service.UserServiceImpl;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @ClassName MyTest
@@ -13,7 +18,8 @@ import org.junit.Test;
 public class MyTest {
     @Test
     public void test(){
-        UserService userService = new UserServiceImpl();
-        userService.getUser();
+        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        Student student = (Student) context.getBean("student");
+        student.show();
     }
 }

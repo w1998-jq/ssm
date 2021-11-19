@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="mybatis 一对多关系">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/wang.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/wang.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wang/dao/teacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wang/dao/teacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/TeacherMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/TeacherMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/studentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/studentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/dao/teacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/dao/teacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wang/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wang/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/wang/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/wang/MyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +164,8 @@
       <workItem from="1637228578409" duration="3672000" />
       <workItem from="1637236464932" duration="4534000" />
       <workItem from="1637242779233" duration="810000" />
-      <workItem from="1637243822779" duration="379000" />
+      <workItem from="1637243822779" duration="687000" />
+      <workItem from="1637302455754" duration="6069000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 一对多关系">
       <created>1637236365960</created>
@@ -179,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637236365960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring">
+      <created>1637244271890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637244271890</updated>
+    </task>
+    <task id="LOCAL-00003" summary="spring">
+      <created>1637244438074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637244438074</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +211,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="mybatis 一对多关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis 一对多关系" />
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
   </component>
 </project>

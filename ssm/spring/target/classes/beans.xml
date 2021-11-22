@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--bean就是java对象 , 由Spring创建和管理-->
+    <bean id="student" class="com.wang.pojo.Student">
+        <property name="name" value="小明"/>
+        <property name="address" ref="addr"/>
+        <property name="books">
+            <array>
+                <value>西游记</value>
+                <value>红楼梦</value>
+                <value>三国演义</value>
+            </array>
+        </property>
+        <property name="hobbys">
+            <list>
+                <value>小说</value>
+                <value>听歌</value>
+            </list>
+        </property>
+        <property name="card">
+            <map>
+                <entry key="西安交通大学" value="41324"/>
+            </map>
+        </property>
+        <property name="games">
+            <set>
+                <value>你好</value>
+                <value>hello</value>
+                <value>萨瓦迪卡</value>
+            </set>
+        </property>
+        <property name="info">
+            <props>
+                <prop key="学号"></prop>
+                <prop key="性别"></prop>
+                <prop key="姓名"></prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="addr" class="com.wang.pojo.Address">
+        <property name="address" value="上海"/>
+    </bean>
+</beans>

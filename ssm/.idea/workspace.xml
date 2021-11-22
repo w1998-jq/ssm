@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring 注解开发和动态代理">
+    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring 依赖注入">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/wang/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/wang/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,18 +60,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test (1)">
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ssm" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wang.JDKProxy.Client" />
+      <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wang.*" />
+          <option name="PATTERN" value="com.wang.JDKProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wang" />
-      <option name="MAIN_CLASS_NAME" value="com.wang.MyTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.testGetStudents" />
         <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="JUnit.MyTest.addUser" />
-        <item itemvalue="JUnit.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +163,7 @@
       <workItem from="1637242779233" duration="810000" />
       <workItem from="1637243822779" duration="687000" />
       <workItem from="1637302455754" duration="6695000" />
-      <workItem from="1637546686762" duration="407000" />
+      <workItem from="1637546686762" duration="2857000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 一对多关系">
       <created>1637236365960</created>
@@ -196,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637312638649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring 依赖注入">
+      <created>1637547138385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637547138385</updated>
+    </task>
+    <task id="LOCAL-00006" summary="spring 依赖注入">
+      <created>1637547211173</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637547211173</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +232,7 @@
     <MESSAGE value="mybatis 一对多关系" />
     <MESSAGE value="spring" />
     <MESSAGE value="spring 注解开发和动态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring 注解开发和动态代理" />
+    <MESSAGE value="spring 依赖注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring 依赖注入" />
   </component>
 </project>

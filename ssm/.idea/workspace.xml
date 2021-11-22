@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring">
+    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring 注解开发和动态代理">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/java/com/wang/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/java/com/wang/MyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/wang/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/wang/service/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,8 @@
       <workItem from="1637236464932" duration="4534000" />
       <workItem from="1637242779233" duration="810000" />
       <workItem from="1637243822779" duration="687000" />
-      <workItem from="1637302455754" duration="6069000" />
+      <workItem from="1637302455754" duration="6695000" />
+      <workItem from="1637546686762" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 一对多关系">
       <created>1637236365960</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637244438074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring 注解开发和动态代理">
+      <created>1637312638648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637312638649</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +220,7 @@
     </ignored-roots>
     <MESSAGE value="mybatis 一对多关系" />
     <MESSAGE value="spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring" />
+    <MESSAGE value="spring 注解开发和动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring 注解开发和动态代理" />
   </component>
 </project>

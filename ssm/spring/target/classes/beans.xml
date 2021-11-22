@@ -4,45 +4,27 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--bean就是java对象 , 由Spring创建和管理-->
-    <bean id="student" class="com.wang.pojo.Student">
-        <property name="name" value="小明"/>
-        <property name="address" ref="addr"/>
-        <property name="books">
-            <array>
-                <value>西游记</value>
-                <value>红楼梦</value>
-                <value>三国演义</value>
-            </array>
-        </property>
-        <property name="hobbys">
-            <list>
-                <value>小说</value>
-                <value>听歌</value>
-            </list>
-        </property>
-        <property name="card">
-            <map>
-                <entry key="西安交通大学" value="41324"/>
-            </map>
-        </property>
-        <property name="games">
-            <set>
-                <value>你好</value>
-                <value>hello</value>
-                <value>萨瓦迪卡</value>
-            </set>
-        </property>
-        <property name="info">
-            <props>
-                <prop key="学号"></prop>
-                <prop key="性别"></prop>
-                <prop key="姓名"></prop>
-            </props>
-        </property>
+    <!--配置数据源：数据源有非常多，可以使用第三方的，也可使使用Spring的-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/mybatis?useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8"/>
+        <property name="username" value="root"/>
+        <property name="password" value="w.1998"/>
     </bean>
 
-    <bean id="addr" class="com.wang.pojo.Address">
-        <property name="address" value="上海"/>
+    <!--bean就是java对象 , 由Spring创建和管理-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+        <property name="mapperLocations" value="classpath:com/wang/sprintMbtaits/*.xml"/>
     </bean>
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg index="0" ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="userDao" class="com.wang.sprintMbtaits.UserMapperImpl">
+        <property name="sqlSession" ref="sqlSession"></property>
+    </bean>
+
+
 </beans>

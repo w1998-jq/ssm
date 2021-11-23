@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="spring 整个mybatis">
+    <list default="true" id="957607cd-b02f-4c7b-b714-051dc9fead37" name="Changes" comment="springmvc">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/com/wang/MyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring/target/classes/mybatis.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -80,7 +82,7 @@
       <recent name="D:\IdeaWorkspace\GitProject\ssm\ssm\spring\src\main\java\com\wang\sprintMbtaits" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.413">
+  <component name="RunManager" selected="JUnit.MyTest.test (1)">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wang.JDKProxy.Client" />
       <module name="spring" />
@@ -256,10 +258,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.test2" />
         <item itemvalue="JUnit.MyTest.test1" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.testGetStudents" />
       </list>
     </recent_temporary>
@@ -279,7 +281,8 @@
       <workItem from="1637242779233" duration="810000" />
       <workItem from="1637243822779" duration="687000" />
       <workItem from="1637302455754" duration="6695000" />
-      <workItem from="1637546686762" duration="11457000" />
+      <workItem from="1637546686762" duration="13438000" />
+      <workItem from="1637636585410" duration="4924000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis 一对多关系">
       <created>1637236365960</created>
@@ -337,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637564912662</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="springmvc">
+      <created>1637572802452</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637572802452</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +366,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -365,6 +376,7 @@
     <MESSAGE value="spring 依赖注入" />
     <MESSAGE value="spring JDK动态代理" />
     <MESSAGE value="spring 整个mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring 整个mybatis" />
+    <MESSAGE value="springmvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="springmvc" />
   </component>
 </project>

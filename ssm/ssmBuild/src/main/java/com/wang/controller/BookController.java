@@ -24,12 +24,15 @@ public class BookController {
     @Qualifier("BookServiceImpl")
     private BookService bookService;
 
+<<<<<<< HEAD
 
     @RequestMapping("/toAddBook")
     public String toAddPaper() {
         return "addBook";
     }
 
+=======
+>>>>>>> origin/main
     @RequestMapping("/allBook")
     public String list(Model model){
         List<Books> list = bookService.queryAllBook();
@@ -50,7 +53,11 @@ public class BookController {
         return "updateBook";
     }
     @RequestMapping("updateBook")
+<<<<<<< HEAD
     public String updateBook(Model model,Books book){
+=======
+    public String uodateBook(Model model,Books book){
+>>>>>>> origin/main
         bookService.updateBook(book);
         Books books = bookService.queryBookById(book.getBookID());
         model.addAttribute("books",books);
